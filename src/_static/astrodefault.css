@@ -16,9 +16,16 @@ body {
     font-weight: 400;
 }
 
-.math {
+.MJX-TEX {
     font-family: "Computer Modern Serif", sans-serif;
-    font-size: 0.75em;
+    font-size: 0.75em !important;
+}
+
+div.math {
+    font-size: 1.2em;
+}
+span.eqno {
+    font-size: 0.8em !important;
 }
 
 p {
