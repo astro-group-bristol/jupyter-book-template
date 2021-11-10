@@ -1,0 +1,29 @@
+@import url("https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css");
+
+.bd-sidebar,
+.bd-toc nav,
+.topbar,
+body {
+    font-family: "Computer Modern Serif", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.math {
+    font-family: "Computer Modern Serif", sans-serif;
+    font-size: 0.75em;
+}
+
+p {
+    margin-bottom: 0.7rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Computer Modern Serif", sans-serif;
+    font-weight: 600;
+}

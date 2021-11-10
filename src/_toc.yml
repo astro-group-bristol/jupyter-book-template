@@ -1,0 +1,29 @@
+# Table of contents
+# See more https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: titlepage
+
+parts:
+  - caption: "A Sample Section"
+    numbered: true
+
+    chapters:
+
+    # File names can be arbitrary, but it is best to use something navigable
+    - file: chapter1/intro
+      sections:
+      - file: chapter1/myst_example
+      - file: chapter1/notebook_example
+
+    - file: chapter2/intro
+      sections:
+      - file: chapter2/configuration
+      - file: chapter2/tocs
+  
+  - caption: "A Different Sample Section"
+    numbered: true
+    
+    chapters:
+    - file: chapter3/intro
+
