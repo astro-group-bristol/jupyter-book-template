@@ -9,7 +9,7 @@ on:
   push:
     branches:
       - master
-      - publish
+      - fergus/publish
 
 jobs:
   build:
