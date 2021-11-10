@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+build = "jb build src"
+serve = "python -m http.server -d src/_build/html"
+
+[packages]
+jupyter-book = "*"
+numpy = "*"
+matplotlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
