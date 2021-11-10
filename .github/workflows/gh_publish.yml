@@ -8,7 +8,7 @@ name: "Publish using Jupyter Book on GH Pages"
 on:
   push:
     branches:
-      - master
+      - main
       - fergus/publish
 
 jobs:
