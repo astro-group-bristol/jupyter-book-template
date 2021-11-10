@@ -2,8 +2,7 @@
 
 .bd-sidebar,
 .bd-toc nav,
-.topbar,
-li {
+.topbar {
     font-family: "Computer Modern Serif", sans-serif;
     font-size: 1.1em;
     font-weight: 400;
