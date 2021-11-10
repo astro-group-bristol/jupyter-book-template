@@ -5,6 +5,7 @@ name = "pypi"
 
 [scripts]
 build = "jb build src"
+serve = "python -m http.server -d src/_build/html"
 
 [packages]
 jupyter-book = "*"
